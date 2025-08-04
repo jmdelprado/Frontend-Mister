@@ -8,7 +8,7 @@ import { Player } from '../../../models/player';
 })
 export class PlayerService {
   
-  private apiUrl:string = 'https://frontend-mister.vercel.app/mister/players';
+  private apiUrl:string = 'https://mister-ei6q.onrender.com/mister/players';
 
   constructor(private http:HttpClient){}
 

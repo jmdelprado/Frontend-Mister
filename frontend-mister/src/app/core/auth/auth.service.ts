@@ -9,7 +9,7 @@ import { jwtDecode } from 'jwt-decode';
 })
 export class AuthService {
  
-  private apiUrl: string = 'https://frontend-mister.vercel.app'
+  private apiUrl: string = 'https://mister-ei6q.onrender.com'
 
   constructor( private http: HttpClient, private router: Router){}
 
